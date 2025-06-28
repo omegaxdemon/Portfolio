@@ -1,0 +1,178 @@
+body{
+    font-family:'Agency FB','Algerian';
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior:smooth;
+    background:turquoise;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 1%;
+    margin: none;
+    background: linear-gradient(rgb(162, 255, 162),rgb(235, 162, 255));
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    font-family: Agency system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 98%;
+    
+}
+.buts{
+    background-color: transparent;
+    padding: 5% 15%;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-family: Agency FB;
+    font-size: 1.7rem;
+    color: black;
+    transition: ease-in-out 0.1s;
+    
+}
+.buts:hover{
+    background:radial-gradient(white,rgb(41, 55, 255));
+    cursor: pointer;
+    color: red;
+}
+#about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: red;
+    top:400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#desc{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    background:linear-gradient(greenyellow,white);
+    width: 85%;
+    border-radius: 50px;
+}
+#desc:hover{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    transform: scale(1.01);
+    cursor:pointer;
+}
+#name{
+    font-size: 3rem;
+    padding: 15%;
+    text-align: center;
+}
+#par{
+    width: 80%;
+    padding-left: 10%;
+}
+#sk{
+    color: red;
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+#des{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.3rem;
+    background:linear-gradient(greenyellow,white);
+    width: 75%;
+    border-radius: 50px;
+    margin: 0% 10%;
+    height: 60%;
+}
+.set{
+    margin: 0% 10% 20% 10%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(skyblue, lightblue,white);
+    width: 75%;
+    height: 50%;
+    border-radius: 40px;
+    transition: ease-in 0.1s;
+}
+.set:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transform: scale(1.1);
+    color: red;
+}
+#rec{
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(greenyellow,white);
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    border-radius: 50%;
+}
+#rec:hover{
+    box-shadow: 0px 0px 30px rgba(255,255,255,0.8);
+}
+#in{
+     color: red;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#pr{
+    color: red;
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+#conka{
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.projs{
+    background:linear-gradient(greenyellow,white);
+    width: fit-content;
+    border-radius: 50px;
+    padding: 2% 5%;
+    margin: 2%;
+}
+.projs:hover{
+    box-shadow: 0px 0px 30px rgba(255,255,255,0.8);
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height:200px;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1.2rem;
+}
+#rev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lnks{
+    color: rgb(199, 199, 199);
+}
+.lnks:hover{
+    color: white;
+}
+#cnt{
+    display: grid;
+    grid-row: auto auto auto auto;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20%;
+}
